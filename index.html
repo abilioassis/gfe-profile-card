@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GreatFrontEnd Projects</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="img/favicon.ico" sizes="any" />
+  </head>
+  <body>
+    <main class="page">
+      <article class="profile-card flex-col-center">
+        <header class="profile-card__header flex-col-center">
+          <picture>
+            <!-- WebP version (preferred) -->
+            <source srcset="./img/profile.webp" type="image/webp" />
+            <!-- PNG fallback -->
+            <source srcset="./img/profile.png" type="image/png" />
+            <!-- Fallback image -->
+            <img
+              class="profile-card__avatar"
+              src="./img/profile.png"
+              alt="Portrait of Sarah Dole"
+              width="64"
+              height="64"
+              loading="lazy"
+            />
+          </picture>
+
+          <div class="profile-card__info flex-col-center">
+            <h2 class="profile-card__name">Sarah Dole</h2>
+            <p class="profile-card__role">Front End Engineer @ Microsoft</p>
+          </div>
+        </header>
+        <p class="profile-card__bio">
+          I turn coffee into bugs which are fixed by someone else. Certified
+          Stack Overflow and ChatGPT developer.
+        </p>
+        <button class="profile-card__button" aria-label="Contact Sarah Dole">
+          Contact me
+        </button>
+        <footer class="profile-card__footer">
+          <ul class="profile-card__social-list flex-row-center list-reset">
+            <li class="profile-card__social-item">
+              <a
+                class="profile-card__social-link flex-row-center"
+                href="#"
+                aria-label="GitHub"
+                title="GitHub"
+              >
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </li>
+            <li class="profile-card__social-item">
+              <a
+                class="profile-card__social-link flex-row-center"
+                href="#"
+                aria-label="LinkedIn"
+                title="LinkedIn"
+              >
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+            </li>
+            <li class="profile-card__social-item">
+              <a
+                class="profile-card__social-link flex-row-center"
+                href="#"
+                aria-label="Instagram"
+                title="Instagram"
+              >
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </li>
+            <li class="profile-card__social-item">
+              <a
+                class="profile-card__social-link flex-row-center"
+                href="#"
+                aria-label="X"
+                title="X"
+              >
+                <i class="fa-brands fa-x-twitter"></i>
+              </a>
+            </li>
+          </ul>
+        </footer>
+      </article>
+    </main>
+    <!-- Credits -->
+    <!-- <footer class="credits flex-row-center">
+      A challenge by&nbsp;
+      <a
+        href="https://www.greatfrontend.com/projects?ref=challenges"
+        target="_blank"
+        >GreatFrontEnd Projects</a
+      >. Built by&nbsp;
+      <a
+        href="https://www.greatfrontend.com/projects/u/abiliodeassis"
+        target="_blank"
+        >Abilio de Assis</a
+      >.
+    </footer> -->
+  </body>
+</html>
