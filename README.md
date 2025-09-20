@@ -34,7 +34,7 @@ The goal of this project is to build a profile card component using semantic HTM
 ## 🚀 Live Demo
 
 - **Repository**: [GitHub Repo](https://github.com/abilioassis/gfe-profile-card)
-- **Live Preview**: [Netlify](https://abilioassis.github.io/gfe-profile-card/)
+- **Live Preview**: [Netlify](https://abilio-gfe-profile-card.netlify.app/)
 
 ---
 
