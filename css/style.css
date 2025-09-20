@@ -80,7 +80,7 @@ select {
 
 /* Basic page structure */
 .page {
-  min-height: 100vh;
+  min-height: 120vh;
   background: var(--background-page);
   display: flex;
   justify-content: center;
