@@ -7,7 +7,7 @@ The goal of this project is to build a profile card component using semantic HTM
 
 ## 📸 Preview
 
-![Profile Card Screenshot](./screenshot.png)
+![Profile Card Screenshot](./screencapture.png)
 
 ---
 
